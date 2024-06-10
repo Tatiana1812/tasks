@@ -1,0 +1,14 @@
+{
+  "number": "11",
+  "description": "Постройте угол, равный данному и имеющий с ним общую сторону",
+  "initObjects": [
+    {"type": "circle", "args": [0.1,0.1,-0.1,0.1,-0.2,-0.2]}
+  ],
+  "instruments": {
+    "point": ["MODE_CREATE_POINT_2D"],
+    "line": ["MODE_CREATE_RAY_TWO_POINTS","MODE_CREATE_2D_MIDDLE_PERPENDICULAR"],
+    "angle": ["MODE_CREATE_2D_ANGLE_BISECTRIX"],
+    "circle": ["MODE_CREATE_CIRCLE_BY_2_POINTS_2D"],
+    "section": ["MODE_CREATE_INTERSECTION"]
+  }
+}

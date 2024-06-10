@@ -1,0 +1,17 @@
+{
+  "number": "1",
+  "description": "Постройте равносторонний треугольник",
+  "initObjects": [
+    {"type": "rib", "args": [0,0,0.1,0]}
+  ],
+  "instruments": {
+    "point": ["MODE_CREATE_POINT_2D"],
+    "line": ["MODE_CREATE_RIB"],
+    "circle": ["MODE_CREATE_CIRCLE_BY_2_POINTS_2D"],
+    "section": ["MODE_CREATE_INTERSECTION"]
+  },
+  "checkObjects": [
+    {"type": "rib", "args": [0,0,0.05,0.08660254]},
+    {"type": "rib", "args": [0.05,0.08660254,0.1,0]}
+  ]
+}

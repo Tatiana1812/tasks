@@ -1,0 +1,4 @@
+4c4
+< #define MyAppBit "x64"
+---
+> #define MyAppBit "x32"

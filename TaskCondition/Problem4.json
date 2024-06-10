@@ -1,0 +1,17 @@
+{
+  "number": "4",
+  "description": "Постройте точку, делящую отрезок на 2 равные части",
+  "initObjects": [
+    {"type": "point", "args": [0.1,0.1]},
+    {"type": "point", "args": [-0.1,-0.1]}
+  ],
+  "instruments": {
+    "point": ["MODE_CREATE_POINT_2D"],
+    "line": ["MODE_CREATE_RIB","MODE_CREATE_2D_MIDDLE_PERPENDICULAR"],
+    "circle": ["MODE_CREATE_CIRCLE_BY_2_POINTS_2D"],
+    "section": ["MODE_CREATE_INTERSECTION"]
+  },
+  "checkObjects": [
+    {"type": "point", "args": [0,0]}
+  ]
+}
